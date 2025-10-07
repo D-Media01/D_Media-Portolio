@@ -12,6 +12,7 @@ body {
     font-size: 1.3rem;
     overflow-x: hidden;
     margin: 0 auto;
+    align-items: center;
     font-family: 500;
     -webkit-text-size-adjust: 100%;
 }
@@ -25,23 +26,20 @@ a {
     text-decoration: none;
 }
 
-/*.section-wrap {
+.section-wrap {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    gap: 4px;
+    margin: 0 auto;
+    max-width: 1300px;
 }
 
 #section-1 {
-    width: 23.26%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding-left: 2.4rem;
-    position: fixed;       
-    top: 0;
-    left: 0;
-} */
+    display: none;
+    
+} 
 
 .dmedia-logo {
     margin-top: 0.5rem;
@@ -72,7 +70,7 @@ a {
 
 #section-2 {
     width: 100vw;
-    max-width: 600px;
+    max-width: 700px;
     border-left: 0.02px solid rgb(73, 73, 73);
     border-right: 0.02px solid rgb(73, 73, 73);
     margin: 0 auto;

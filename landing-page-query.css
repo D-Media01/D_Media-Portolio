@@ -1,5 +1,41 @@
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1000px){
+    body {
+        padding-left: 1rem;
+        padding-right: 2rem;
+    }
+
+    #section-2 {
+        margin: 0;
+    }
+
     #section-3 {
         display: block;
+
+    }
+    
+
+}
+
+@media screen and (min-width: 1364px){
+    #section-1 {
+        display: block;
+        width: 23.26%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 2.4rem;
+        position: fixed;
+        top: 0;
+        margin-left: -60rem; /* moves it slightly away from the edge */
+
+    }
+
+    #section-2 {
+        margin-left: 18rem;
+    }
+
+    #section-3 {
+        display: block;
+
     }
 }
