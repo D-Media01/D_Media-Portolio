@@ -15,6 +15,8 @@ body {
     align-items: center;
     font-weight: 500;
     -webkit-text-size-adjust: 100%;
+    padding-bottom: 5rem;
+    height: auto;
 }
 
 html {
@@ -118,7 +120,7 @@ a {
 .bio {
     margin-top: 1rem;
     margin-left: 1.5rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .date {
@@ -162,7 +164,7 @@ hr {
 }
 
 .about-text {
-    font-size: 1.4rem;
+    font-size: 1rem;
     letter-spacing: 0.06rem;
     margin-bottom: 1rem;
     margin-right: 1rem;
@@ -275,7 +277,7 @@ hr {
 }
 
 .email {
-    font-size: 0.9rem;
+    font-size: 1.2rem;
 }
 
 .socials {
@@ -481,3 +483,6 @@ legend {
     border-radius: 50rem;
 }
 
+.mobile-nav{
+    display: none;
+}
