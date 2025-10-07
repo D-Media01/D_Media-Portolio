@@ -140,7 +140,7 @@ a {
 }
 
 .web-address {
-    font-size: 1.2rem;
+    font-size: 0.9rem;
     color: rgb(73, 73, 73);
 }
 
@@ -247,6 +247,10 @@ hr {
     margin-top: 1rem;
 }
 
+.project-text {
+    font-size: 1.1rem;
+}
+
 .projects-showcase {
     margin-left: 4.5rem;
 }
@@ -277,7 +281,8 @@ hr {
 }
 
 .cert-wrap {
-    margin-top: 2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 .certificate-img {
