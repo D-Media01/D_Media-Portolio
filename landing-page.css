@@ -513,9 +513,9 @@ legend {
 .for-top {
     margin-top: 0.3rem;
     border-radius: 50rem;
-    padding: 1;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding: 0.7rem;
+    padding-left: 1rem;
+    
     
 }
 
