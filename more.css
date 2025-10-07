@@ -1,3 +1,8 @@
+.section-for-mobile {
+    width: 96%;
+    margin: 0 auto;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -15,7 +20,7 @@ body {
     align-items: center;
     font-weight: 500;
     -webkit-text-size-adjust: 100%;
-
+    padding-left: 0;
     height: auto;
 }
 
@@ -371,7 +376,7 @@ legend {
 
 
 #section-3 {
-    display: none;
+    display: block;
     width: 30.23%;
     padding-left: 2rem;
     position: sticky;
@@ -538,3 +543,18 @@ legend {
     display: none;
 }
 
+
+
+
+
+
+@media screen and (min-width: 1000px) {
+    .section-for-mobile {
+        display: block;
+    }
+
+    .section-3 {
+    display: block;
+}
+
+}

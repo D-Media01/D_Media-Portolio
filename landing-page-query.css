@@ -1,4 +1,4 @@
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1364px) {
     .mobile-nav {
         width: 100%;
         position: fixed;
@@ -20,6 +20,10 @@
     .mobile-nav-link-wrap  {
             width: 3rem;
         }
+
+        body {
+            padding-bottom: 5rem;
+        }
 }
 
 @media screen and (min-width: 1000px){
@@ -36,9 +40,32 @@
         display: block;
 
     }
+
+    .skill-list {
+        gap: 2rem;
+    }
     
+    .skills-image {
+        width: 14rem;
+    }
 
 }
+
+@media screen and (min-width: 600px){
+
+    .skill-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .skills-image {
+        width: 14rem;
+    }
+
+}
+
+
+
 
 @media screen and (min-width: 1364px){
     #section-1 {
@@ -50,7 +77,7 @@
         padding-left: 2.4rem;
         position: fixed;
         top: 0;
-        margin-left: -60rem; /* moves it slightly away from the edge */
+        margin-left: -65rem; /* moves it slightly away from the edge */
 
     }
 
