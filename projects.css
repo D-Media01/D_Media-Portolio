@@ -1,0 +1,45 @@
+.projects-content {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.projects-content-container {
+    margin-left: 4rem;
+}
+
+.project-content-title {
+    font-size: 1.8rem;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+    margin-bottom: 0.2rem;
+}
+
+.project-content-description {
+    color: rgb(73, 73, 73);
+    font-size: 1.2rem;
+    width: 21rem;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.image-1 {
+    width: 21rem;
+    height: auto;
+}
+
+.image-2 {
+    width: 12rem;
+    height: auto;
+}
+
+.project-live-link a {
+    font-weight: 100;
+    font-size: 1rem;
+    color: rgb(19, 100, 146);
+    text-decoration: none;
+}

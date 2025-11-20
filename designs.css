@@ -1,0 +1,23 @@
+.designs-collections {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-left: 4rem;
+    width: auto;
+}
+
+.collection {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    overflow: hidden; 
+    
+}
+
+.item {
+    width: 15rem;
+    border-radius: 15px;
+    max-width: 100%;
+    height: auto;
+    display: block; 
+}
