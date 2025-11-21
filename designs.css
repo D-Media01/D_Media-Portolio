@@ -1,8 +1,13 @@
+.skill-img-title {
+    margin-top: 1rem;
+}
+
 .designs-collections {
     display: flex;
     flex-direction: row;
     gap: 1rem;
-    margin-left: 4rem;
+    margin-left: 1rem;
+    padding: 1rem;
     width: auto;
 }
 
